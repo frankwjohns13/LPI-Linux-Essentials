@@ -2,7 +2,7 @@
 
 # LPI Linux Essentials - Exam Notes
 
-## Task 1 The Linux community and a Career in Open Source (Weight: 7)
+## Topic 1: The Linux community and a Career in Open Source (Weight: 7)
 
 ### 1.1 Linux Evolution and Popular Operating Systems (Weight: 2)
 Knowledge of Linux development and major distrobutions.
@@ -65,7 +65,7 @@ Basic Information and Communication Technology (ICT) skills and working in Linux
 - Use of common open source applications in presentations and projects
 
 
-## Task 2 Finding Your Way on a Linux System (Weight: 9)
+## Topic 2: Finding Your Way on a Linux System (Weight: 9)
 
 ### 2.1 Command Line Basics (Weight: 3)
 Basics of using the Linux command line.
@@ -129,7 +129,7 @@ Create, move, and delete files and directories under the home directory.
 - mkdir
 - rmdir
 
-## Task 3 The Power of the Command Line (Weight: 9)
+## Topic 3: The Power of the Command Line (Weight: 9)
 
 ### 3.1 Archiving Files on the Command Line (Weight: 2)
 Archiving files in the user home directory.
@@ -176,7 +176,7 @@ Turning repetitive commands into simple scripts.
 - echo
 - Exit status
 
-## Task 4 The Linux Operating System (Weight: 8)
+## Topic 4: The Linux Operating System (Weight: 8)
 
 ### 4.1 Choosing an Operating System (Weight: 1)
 Knowledge of major operating systems and Linux distributions.
@@ -233,17 +233,57 @@ Querying vital networking configuration and determining the basic requirments fo
 - ping
 - host
 
+## Topic 5: Creating Users and Groups (Weight: 7)
 
+### 5.1 Basic Security Identifying User Types (Weight: 2) 
+Various types of users on a Linux system.
 
-
-
-
-<!-- Common structure of each sub task
 **Key Knowledge Areas:**
-
+- Root and standard users
+- System users
 
 **The following is a partial list of the used files, terms, and utilities:**
--->
+- /etc/passwd, /etc/shadow, /etc/group
+- id, last, who, w
+- sudo, su
+
+
+### 5.2 Creating Users and Groups (Weight: 2)
+Creating users and groups on a Linux system. 
+
+**Key Knowledge Areas:**
+- User and group commands
+- User IDs
+
+**The following is a partial list of the used files, terms, and utilities:**
+- /etc/passwd, /etc/shadow, /etc/group, /etc/skel/
+- useradd, groupadd
+- passwd
+
+### 5.3 Managing File Permissions and Ownership (Weight: 2)
+Understanding and manipulating file permissions and ownership settings.
+
+**Key Knowledge Areas:**
+- File and directory permissions and ownership
+
+**The following is a partial list of the used files, terms, and utilities:**
+- ls -l, ls -a
+- chmod, chown
+
+### 5.4 Special Directories and Files (Weight: 1)
+Special directories and files on a Linux system including special permissions.
+
+**Key Knowledge Areas:**
+- Using temporary files and directories
+- Sysbolic links
+
+**The following is a partial list of the used files, terms, and utilities:**
+- /tmp/, /var/tmp/, and Sticky Bit
+- ls -d
+- ln -s
+
+
+
 
 
 
