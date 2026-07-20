@@ -129,8 +129,52 @@ Create, move, and delete files and directories under the home directory.
 - mkdir
 - rmdir
 
+## Task 3 The Power of the Command Line (Weight: 9)
 
+### 3.1 Archiving Files on the Command Line (Weight: 2)
+Archiving files in the user home directory.
 
+**Key Knowledge Areas:**
+- Files, directories
+- Archives, compression
+
+**The following is a partial list of the used files, terms, and utilities:**
+- tar
+- Common tar options
+- gzip, bzip2, xz
+- zip, unzip
+
+### 3.2 Searching and Extracting Data from Files (Weight: 3)
+Search and extract data from files in the home directory
+
+**Key Knowledge Areas:**
+- Command line pipes
+- I/O redirection
+- Basic Regular Expressions using ., [], *, and ?
+
+**The following is a partial list of the used files, terms, and utilities:**
+- grep
+- less
+- cat, head, tail
+- sort
+- cut
+- wc
+
+### 3.3 Turning Commands into a Script (Weight: 4)
+Turning repetitive commands into simple scripts.
+
+**Key Knowledge Areas:**
+- Basic shell scripting
+- Awareness of common text editors (vi and nano)
+
+**The following is a partial list of the used files, terms, and utilities:**
+- #! (shebang)
+- /bin/bash
+- Variables
+- Arguments
+- for loops
+- echo
+- Exit status
 
 
 
