@@ -176,11 +176,71 @@ Turning repetitive commands into simple scripts.
 - echo
 - Exit status
 
+## Task 4 The Linux Operating System (Weight: 8)
+
+### 4.1 Choosing an Operating System (Weight: 1)
+Knowledge of major operating systems and Linux distributions.
+
+**Key Knowledge Areas:**
+- Differences between Windows, OS X, and Linux
+- Distribution life cycle management
+
+**The following is a partial list of the used files, terms, and utilities:**
+- GUI versus comand line, desktop configurations
+- Maintenance cycles, beta, and stable
+
+### 4.2 Understanding Computer Hardware (Weight: 2)
+Familiarity with the components that go into building desktip and server computers
+
+**Key Knowledge Areas:**
+- Hardware
+
+**The following is a partial list of the used files, terms, and utilities:**
+- Motherboards, processors, power supplies, optical drives, peripherals
+- Hard drives, solid state disks, and partitions, /dev/sd*
+- Drivers
+
+### 4.3 Where Data is Stored (Weight: 3)
+Where various types of information are stored on a Linux system.
+
+**Key Knowledge Areas:**
+- Programs and configuration
+- Processes
+- Memory addresses
+- System messaging
+- Loggin
+
+**The following is a partial list of the used files, terms, and utilities:**
+- ps, top, free
+- syslog, dmesg
+- /etc/, /var/log/
+- /boot/, /proc/, /dev/, /sys/
+
+### 4.4 Your computer on the Network (Weight: 2)
+Querying vital networking configuration and determining the basic requirments for a computer on a Local Area Network (LAN).
+
+**Key Knowledge Areas:**
+- Internet, network, routers
+- Querying DNS client configuration
+- Querying network configuration
+
+**The following is a partial list of the used files, terms, and utilities:**
+- route, ip route show
+- ifconfig, ip addr show
+- netstat, ss
+- /etc/resolv.conf, /etc/hosts
+- IPv4, IPv6
+- ping
+- host
+
+
+
 
 
 
 <!-- Common structure of each sub task
 **Key Knowledge Areas:**
+
 
 **The following is a partial list of the used files, terms, and utilities:**
 -->
