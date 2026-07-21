@@ -330,7 +330,7 @@ echo "Hello $NAME"
 
 \# Simple loop \
 for i in 1 2 3; do \
-    echo "Number $i" \
+        echo "Number $i" \
 done
 
 **Exam Tips:**
@@ -347,20 +347,37 @@ Knowledge of major operating systems and Linux distributions.
 - Differences between Windows, OS X, and Linux
 - Distribution life cycle management
 
-**The following is a partial list of the used files, terms, and utilities:**
-- GUI versus comand line, desktop configurations
-- Maintenance cycles, beta, and stable
+**Important Concepts & Terms:**
+- **Linux vs Windows vs macOS:**
+  - Linux: Open source, highly customizable, excellent for servers
+  - Windows: User-friendly desktop, dominant in business desktops
+  - macOS: Unix-based, good hardware integrations, creative work
+- **Distribution Life Cycle:**
+  - Stable vs Beta releases
+  - Long Term Support (LTS) versions (e.g., Ubuntu LTS)
+  - Rolling releases (e.g., Arch Linux)
+
+**Exam Tips:**
+- Know that Linux dominates the server and cloud market
 
 ### 4.2 Understanding Computer Hardware (Weight: 2)
 Familiarity with the components that go into building desktip and server computers
 
 **Key Knowledge Areas:**
-- Hardware
+- Hardware components
 
-**The following is a partial list of the used files, terms, and utilities:**
-- Motherboards, processors, power supplies, optical drives, peripherals
-- Hard drives, solid state disks, and partitions, /dev/sd*
-- Drivers
+**Important Terms:** (A+ stuff)
+- **Motherboard:** Main printed circuit board that everything connects to
+- **Processor:** Brain of the computer (CPU)
+- **Power Supply:** Provides power to all the parts in the computer
+- **Hard Drive (HDD):** Mechanical long term storage
+- **Solid State Drive: (SSD)** Electronic long term storage
+- **Partitions:** Logical division of a physical storage device (/dev/sd*)
+- **Drivers:** Translator between the operating system and the hardware devices
+
+**Exam Tips:**
+- Understand basic hardware terminology
+- Know that Linux uses /dev/sd* for storage devices.
 
 ### 4.3 Where Data is Stored (Weight: 3)
 Where various types of information are stored on a Linux system.
@@ -370,30 +387,49 @@ Where various types of information are stored on a Linux system.
 - Processes
 - Memory addresses
 - System messaging
-- Loggin
 
-**The following is a partial list of the used files, terms, and utilities:**
-- ps, top, free
-- syslog, dmesg
-- /etc/, /var/log/
-- /boot/, /proc/, /dev/, /sys/
+**Important Concepts & Terms:**
+- /etc/ - Configuration files (system-wide)
+- /var/log/ - Log files
+- /boot/ - Boot loader and kernel files
+- /proc/ - Virtual filesystem with process and system info
+- /dev/ - Device files
+- /sys/ - System information
+
+**Key Commands:**
+- *ps* - Show running processes
+- *top* - Real-time process viewer
+- *free* - Memory usage
+- *dmesg* - Kernel messages
+- *syslog* - System logging
+
+**Exam Tips:**
+- Know the purpose of the major directories (*/etc/*, */var/log/*, */proc/*, etc.).
+- Understand that */proc/* is a virtual filesystem.
 
 ### 4.4 Your computer on the Network (Weight: 2)
 Querying vital networking configuration and determining the basic requirments for a computer on a Local Area Network (LAN).
 
 **Key Knowledge Areas:**
-- Internet, network, routers
+- Basic networking concepts
 - Querying DNS client configuration
 - Querying network configuration
 
-**The following is a partial list of the used files, terms, and utilities:**
-- route, ip route show
-- ifconfig, ip addr show
-- netstat, ss
-- /etc/resolv.conf, /etc/hosts
-- IPv4, IPv6
-- ping
-- host
+**Important Concepts & Terms:**
+- **IP Addressing:** IPv4 vs IPv6
+- **Common Commands:**
+  - *ip addr show* or *ifconfig* - Show network interfaces
+  - *ip route show* or *route* - Show routing table
+  - *ping* - Test connectivity
+  - *host* or *nslookup* - DNS lookup
+  - *ss* or *netstat* - Show network connections
+- **Important Files:**
+  - */etc/resolv.conf* - DNS servers
+  - */etc/hosts* - Local hostname to IP mapping
+
+**Exam Tips:**
+- Know the modern commands (*ip* command is prefered over older ones)
+- Understand basic troubleshooting with *ping*.
 
 ## Topic 5: Security and File Permissions (Weight: 7)
 
