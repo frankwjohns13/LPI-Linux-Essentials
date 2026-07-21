@@ -69,17 +69,23 @@ Open communities and licensing Open Source Software for business
 ### 1.4 ICT Skills and Working in Linux (Weight: 2)
 Basic Information and Communication Technology (ICT) skills and working in Linux.
 
-**Key Knowledge Areas:**
+**Key Knowledge Areas:** The following is a partial list of the used files, terms, and utilities
 - Desktop skills
+  - Using a graphical user interface (GUI) - browsers, file managers, basic configuration
+  - Privacy concerns (tracking, cookies, data collection)
+  - Basic productivity tools (LibreOffice, web browsing)
 - Getting to the command line
-- Industry uses of Linux, cloud computing, and virtualization
+  - Opening a terminal/console
+  - Basic navigation and command
+  - Understanding that most server/admin work is done via command line
+- Industry uses of Linux
+  - Servers (web, database, file, email)
+  - Cloud computing (AWS Azure, Google Cloud) mostly run Linux
+  - Virtualization (KVM, VirtualBox, VMware)
 
-**The following is a partial list of the used files, terms, and utilities:**
-- Terminal and console
-- Password issues
-- Privacy issues and tools
-- Use of common open source applications in presentations and projects
-
+**Exam Tips:**
+- Know that Linux dominates the server and cloud space.
+- Understand the difference between desktop Linux (Ubuntu, Mint) and server Linux (Ubuntu Server, RHEL).
 
 ## Topic 2: Finding Your Way on a Linux System (Weight: 9)
 
