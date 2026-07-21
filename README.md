@@ -48,16 +48,23 @@ Awareness of major applications as well as their uses and development.
 ### 1.3 Open Source Software and Licensing (Weight: 1)
 Open communities and licensing Open Source Software for business
 
-**Key Knowledge Areas:**
-- Open source philosophy
-- Open source licensing
-- Free Software Foundation(FSF), Opensource Initiative (OSI)
-
-**The following is a partial list of the used files, terms, and utilities:**
-- Copyleft, Permissive
-- GPL, BSD, Creative Commons
-- Free Software, Open Source Software, FOSS, FLOSS
-- Open source business models
+**Key Knowledge Areas:** The following is a partial list of the used files, terms, and utilities
+- **Open source philosophy**
+  - Software should be freely available to use, study, modify, and distribute.
+  - Collaboration and community-driven development.
+- **Open source licensing**
+  - **Copyleft** (Strong protection): **GPL** (GNU General Public License) - If you modify and distribute, you must release your changes under the same license.
+  - **Permissive**: BSD, MIT, Apache - Very flexible; you can use the code in proprietary projects with fewer restrictions.
+- **Key Organizations**:
+  - **Free Software Foundation (FSF)**: Founded by Richard Stallman. Promotes "Free Software" (freedom to use, study, modify, distribute).
+  - **Open Source Initiative (OSI)**: Focuses on the "Open Source" label and business-friendly licensing.
+- **Common Licenses**:
+  - GPL (Copyleft)
+  - BSD/MIT (Permissive)
+  - Creative Commons (for non-software content)
+- **Exam Tips:**
+  - Know the difference between **Copyleft** vs **Permissive**.
+  - Understand that "Free Software" (FSF) and "Open Source Software" (OSI) are related but have slightly different philosophies.
 
 ### 1.4 ICT Skills and Working in Linux (Weight: 2)
 Basic Information and Communication Technology (ICT) skills and working in Linux.
