@@ -440,11 +440,21 @@ Various types of users on a Linux system.
 - Root and standard users
 - System users
 
-**The following is a partial list of the used files, terms, and utilities:**
-- /etc/passwd, /etc/shadow, /etc/group
-- id, last, who, w
-- sudo, su
+**Important Concepts:**
+- **Root User:** Supervisor with full system access (*uid=0*0
+- **Standard Users:** Normal accounts with limited privileges
+- **System Users:** service accounts (usually uid < 1000) for running deamons
 
+**Key Commands:**
+- *id* - Show user and group information
+- *who* / *w* - Show logger-in users
+- *last* - Show last logins
+- *su* - Switch user
+- *sudo* - Run command as root
+
+**Exam Tips:**
+- Understand the danger of logging in as root regularly.
+- Know *sudo* vs *su*.
 
 ### 5.2 Creating Users and Groups (Weight: 2)
 Creating users and groups on a Linux system. 
@@ -453,10 +463,33 @@ Creating users and groups on a Linux system.
 - User and group commands
 - User IDs
 
-**The following is a partial list of the used files, terms, and utilities:**
-- /etc/passwd, /etc/shadow, /etc/group, /etc/skel/
-- useradd, groupadd
-- passwd
+**Important Concepts:**
+- **User DIs (UID):**
+  - Root = 0
+  - Regular users usually start at 1000+
+  - System accounts usually < 1000
+- **Groups:**
+  - Every user belongs to a primary group
+  - Can belong to multiple supplementary groups
+
+**Key Commands & Files:**
+- *useradd username* - Create a new user
+- *passwd username* - Set password for user
+- *groupadd groupname* - Create a new group
+- *usermod* - Modify user (e.g., add to groups)
+- Important files:
+  - */etc/passwd* - User account informaton
+  - */etc/shadow* - Encrypted passwords
+  - */etc/group* - Group information
+  - */etc/skel/* - Default files copied to new users' home directories
+
+**Example:**
+sudo useradd -m -G sudo john \# Creates user with home dir and add to sudo group \
+sudo passwd john             \# Sets password
+
+**Exam Tips:**
+- Know the basic *useradd* and *groupadd* commands.
+- Understand the purpose of */etc/skel*.
 
 ### 5.3 Managing File Permissions and Ownership (Weight: 2)
 Understanding and manipulating file permissions and ownership settings.
@@ -464,9 +497,29 @@ Understanding and manipulating file permissions and ownership settings.
 **Key Knowledge Areas:**
 - File and directory permissions and ownership
 
-**The following is a partial list of the used files, terms, and utilities:**
-- ls -l, ls -a
-- chmod, chown
+**Important Concepts:**
+- **Permissions:**
+  - Read(r) - View file contents, list directory contents.
+  - Write(w) - Modify/delete file contents, Create, delete, or rename files inside the directory.
+  - Execute(x) - Run file as a program, Enter directory (cd) and access contents
+  - Owner, Group, Others
+- **Numeric (Octal) Mode:**
+  - r = 4, w = 2, x = 1
+  - **Example:** 755 = rwxr-xr-x
+- **Ownership:**
+  - Owner and Group
+
+**Key Commands:**
+- *ls -l* - View permissions
+- *chmod* - Change permissions
+  - **Symbolic:** *chmod u+x file*
+  - **Numeric:** *chmod 755 file*
+- *chown* - Change owner or group
+  - *chown user:group file*
+
+**Exam Tips:**
+- Know how to read permission strings (e.g., rwxr-xr-x)
+- Understand the difference between changing permissions (*chmod*) and ownership (*chown*).
 
 ### 5.4 Special Directories and Files (Weight: 1)
 Special directories and files on a Linux system including special permissions.
@@ -475,20 +528,23 @@ Special directories and files on a Linux system including special permissions.
 - Using temporary files and directories
 - Sysbolic links
 
-**The following is a partial list of the used files, terms, and utilities:**
-- /tmp/, /var/tmp/, and Sticky Bit
-- ls -d
-- ln -s
+**Important Concepts & Terms:**
+- ** Temporary Directories:**
+  - */tmp/* - General temporary files (cleared on reboot)
+  - */var/tmp/* - Temporary files that persist across reboots
+- **Sticky Bit** - Speccial permission on directories (only owner can delete files inside)
+  - Shown as *t* in permissions (e.g., *drwxrwxrwt*)
+- **Symbolic Links** (Symlinks):
+  - Shortcut to another file or directory
+  - Command: *ln -s target linkname*
 
+**Key Commands:**
+- *ln -s* - Create symbolic link
+- *ls -s* - Shows links (-> target)
 
-
-
-
-
-
-
-
-
+**Exam Tips:**
+- Know what the sticky bit is and where it's commonly used (*/tmp/*).
+- Understand symbolic links vs hard links.
 
 
 
