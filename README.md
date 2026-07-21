@@ -145,18 +145,27 @@ Running help commands and navigation of the various help systems
 ### 2.3 Using Directories and Listing Files (Weight: 2)
 Navigation of home and system directories and listing files in various locations
 
-**Key Knowledge Areas:**
-- Files, directories
-- Hidden files and directories
-- Home directories
-- Absolute and relative paths
+**Key Knowledge Areas:** The following is a partial list of the used files, terms, and utilities
+- **Files vs Directories**
+- **Hidden files:** Start with a dot (e.g., *.bashrc*, *.hiddenfile*)
+- **Home Directory:** Represented by *~* or *$HOME*
+- **Absolute Path:** Starts from root (*/home/usr/file.txt*)
+- **Relative Path:** Relative to current location (*../file.txt* or *Documents/report.txt*)
   
-**The following is a partial list of the used files, terms, and utilities:**
-- Common options for ls
-- Recursive listings
-- cd
-- . and ..
-- home and ~
+**Important Commands:**
+- *ls* (list files)
+  - *ls -l* (long format)
+  - *ls -a* (show hidden files)
+  - *ls -la* (long + hidden)
+- *cd* (change directory)
+  - *cd ~* or *cd* (go home)
+  - *cd ..* (parent directory)
+  - *cd /* (root directory)
+
+**Exam Tips:**
+- Know the difference between absolute and relative paths.
+- Understand that *.* = current directory, *..* = partent directory
+- *ls -a* is important for seeing hidden files.
 
 ### 2.4 Creating, Moving, and Deleting Files (Weight: 2)
 Create, move, and delete files and directories under the home directory.
