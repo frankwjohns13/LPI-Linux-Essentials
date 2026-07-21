@@ -158,7 +158,7 @@ Navigation of home and system directories and listing files in various locations
   - *ls -a* (show hidden files)
   - *ls -la* (long + hidden)
 - *cd* (change directory)
-  - *cd ~* or *cd* (go home)
+  - *cd* ~ or *cd* (go home)
   - *cd ..* (parent directory)
   - *cd /* (root directory)
 
