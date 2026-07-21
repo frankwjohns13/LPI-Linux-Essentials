@@ -7,16 +7,15 @@
 ### 1.1 Linux Evolution and Popular Operating Systems (Weight: 2)
 Knowledge of Linux development and major distrobutions.
 
-**Key Knowledge Areas:**
-The following is a partial list of the used files, terms, and utilities
-- Distributions (Distros):
-  - Debian-based: Debian, Ubuntu (Long Term Support (LTS) versions are popular for servers)
-  - Red Hat-based: Red Hat Enterprise Linux (RHEL), CentOS, Fedora
-  - SUSE-based: OpenSUSE, SUSE Linux Enterprise
+**Key Knowledge Areas:** The following is a partial list of the used files, terms, and utilities
+- **Distributions (Distros)**:
+  - **Debian-based**: Debian, Ubuntu (Long Term Support (LTS) versions are popular for servers)
+  - **Red Hat-based**: Red Hat Enterprise Linux (RHEL), CentOS, Fedora
+  - **SUSE-based**: OpenSUSE, SUSE Linux Enterprise
   - Others: Linux Mint (User-friendly), Raspberry Pi OS (for Pi devices)
-- Embedded Systems: Lightweight Linux versions used in devices like routers, IoT, cars, etc. (e.g., Raspbian on Raspberry Pi, Andriod is Linux-based).
-- Linux in the Cloud: Most cloud servers run Linux (Ubuntu, Amazon Linux, etc.). Containers (Docker) and orchestration (Kubernetes) are heavily Linux-based.
-- Kali: Designed packed full of applications used in penetration testing
+- **Embedded Systems**: Lightweight Linux versions used in devices like routers, IoT, cars, etc. (e.g., Raspbian on Raspberry Pi, Andriod is Linux-based).
+- **Linux in the Cloud**: Most cloud servers run Linux (Ubuntu, Amazon Linux, etc.). Containers (Docker) and orchestration (Kubernetes) are heavily Linux-based.
+- **Kali**: Designed packed full of applications used in penetration testing (Okay, this may not be on the test, but I think everyone should know it)
 
 **Exam Tips:**
 - Know the most popular server distros: Ubuntu and RHEL/CentOS
@@ -25,18 +24,26 @@ The following is a partial list of the used files, terms, and utilities
 ### 1.2 Major Open Source Applications (Weight: 2)
 Awareness of major applications as well as their uses and development. 
 
-**Key Knowledge Areas:**
-- Desktop applications
-- Server applicatons
-- Development languages
-- Package management and repositories
+**Key Knowledge Areas:** The following is a partial list of the used files, terms, and utilities
+- **Desktop applications**
+  - LibreOffice / OpenOffice (office suite)
+  - Firefox (web browser)
+  - Thunderbird (email client)
+  - GIMP (image editing - like Photoshop) 
+- **Server applicatons**
+  - Apache HTTPD & NGINX (web servers)
+  - MariaDB / MySQL (database)
+  - Samba (file sharing with Windows)
+  - Nextcloud / ownCloud (private cloud storage)
+- **Development languages**
+  - C, Java, JavaScript, Perl, shell, Python, PHP
+- **Package management and repositories**
+  - **Debian/Ubuntu**: apt, apt-get, dpkg
+  - **Red Hat/CentOS/Fedora**: yum, dnf, rpm
 
-**The following is a partial list of the used files, terms, and utilities:**
-- OpenOffice.org, LibreOffice, Thunderbird, Firefox, GIMP
-- Nextcloud, ownCloud
-- Apache HTTPD, NGINX, MariaDB, MySQL, NFS, Samba
-- C, Java, JavaScript, Perl, shell, Python, PHP
-- dpkg, apt-get, rpm, yum
+**Exam Tips:**
+- Know the difference between apt (Debian) and yum/dnf (Red Hat).
+- Understand that open source tools are widely used on both desktop and server environments.
 
 ### 1.3 Open Source Software and Licensing (Weight: 1)
 Open communities and licensing Open Source Software for business
