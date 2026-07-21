@@ -7,7 +7,12 @@
 ### 1.1 Linux Evolution and Popular Operating Systems (Weight: 2)
 Knowledge of Linux development and major distrobutions.
 
-**Key Knowledge Areas:** The following is a partial list of the used files, terms, and utilities
+**Key Knowledge Areas:** 
+- Major Linux distributions and their use cases
+- Embedded systems and specialized Linux versions
+- Linux in the cloud
+
+**Important Concepts & Terms:**
 - **Distributions (Distros)**:
   - **Debian-based**: Debian, Ubuntu (Long Term Support (LTS) versions are popular for servers)
   - **Red Hat-based**: Red Hat Enterprise Linux (RHEL), CentOS, Fedora
@@ -24,7 +29,13 @@ Knowledge of Linux development and major distrobutions.
 ### 1.2 Major Open Source Applications (Weight: 2)
 Awareness of major applications as well as their uses and development. 
 
-**Key Knowledge Areas:** The following is a partial list of the used files, terms, and utilities
+**Key Knowledge Areas:** 
+- Desktop applications
+- Server applications
+- Development languages
+- Package management tools and repositories
+
+**Important Concepts & Terms:**
 - **Desktop applications**
   - LibreOffice / OpenOffice (office suite)
   - Firefox (web browser)
@@ -48,7 +59,12 @@ Awareness of major applications as well as their uses and development.
 ### 1.3 Open Source Software and Licensing (Weight: 1)
 Open communities and licensing Open Source Software for business
 
-**Key Knowledge Areas:** The following is a partial list of the used files, terms, and utilities
+**Key Knowledge Areas:** 
+- Open source philosophy
+- Open source licensing models
+- Free Software Fundation (FSF) and Open Source Instiative (OSI)
+
+**Important Concepts & Terms:**
 - **Open source philosophy**
   - Software should be freely available to use, study, modify, and distribute.
   - Collaboration and community-driven development.
@@ -69,7 +85,12 @@ Open communities and licensing Open Source Software for business
 ### 1.4 ICT Skills and Working in Linux (Weight: 2)
 Basic Information and Communication Technology (ICT) skills and working in Linux.
 
-**Key Knowledge Areas:** The following is a partial list of the used files, terms, and utilities
+**Key Knowledge Areas:** 
+-Desktop skills
+Getting to the command line
+Industry uses of Linux, cloud computing, and virtualization
+
+**Important Concepts & Terms:**
 - Desktop skills
   - Using a graphical user interface (GUI) - browsers, file managers, basic configuration
   - Privacy concerns (tracking, cookies, data collection)
@@ -92,7 +113,13 @@ Basic Information and Communication Technology (ICT) skills and working in Linux
 ### 2.1 Command Line Basics (Weight: 3)
 Basics of using the Linux command line.
 
-**Key Knowledge Areas:** The following is a partial list of the used files, terms, and utilities
+**Key Knowledge Areas:** 
+- Basic shell usage
+- Command line syntax
+- Variables
+- Quoting
+
+**Important Concepts & Terms:**
 - **Shell:** The most common is **Bash** (/bin/bash).
 - **Command line syntax**: *command [options] [arguments]*
   - Example: *ls -l /home*
@@ -121,7 +148,11 @@ Basics of using the Linux command line.
 ### 2.2 Using the Command Line to Get Help (Weight: 2)
 Running help commands and navigation of the various help systems
 
-**Key Knowledge Areas:** The following is a partial list of the used files, terms, and utilities
+**Key Knowledge Areas:** 
+- Man pages
+- Info pages
+
+**Important Concepts & Terms:**
 - **Man Pages** (*man*): The standard pages for commands.
   - **Usage:** *man ls*
   - **Navigation:** Space = page down, b = page up, q = quit
@@ -145,7 +176,13 @@ Running help commands and navigation of the various help systems
 ### 2.3 Using Directories and Listing Files (Weight: 2)
 Navigation of home and system directories and listing files in various locations
 
-**Key Knowledge Areas:** The following is a partial list of the used files, terms, and utilities
+**Key Knowledge Areas:** 
+- Files and directories
+- Hidden files and directories
+- Home directory
+- Absolute and relative paths
+
+**Important Concepts & Terms:**
 - **Files vs Directories**
 - **Hidden files:** Start with a dot (e.g., *.bashrc*, *.hiddenfile*)
 - **Home Directory:** Represented by *~* or *$HOME*
@@ -170,7 +207,12 @@ Navigation of home and system directories and listing files in various locations
 ### 2.4 Creating, Moving, and Deleting Files (Weight: 2)
 Create, move, and delete files and directories under the home directory.
 
-**Key Knowledge Areas:** The following is a partial list of the used files, terms, and utilities
+**Key Knowledge Areas:** 
+- Files and directories
+- Case sensitivity
+- Simple globbing
+
+**Important Concepts & Terms:**
 - **Case Sensitivity:** Linux is case-sensitive (*File.txt* &#8800; *file.txt*)
 - **Flobbing** (wildcards)
   - \* = any characters
@@ -197,31 +239,68 @@ Create, move, and delete files and directories under the home directory.
 ### 3.1 Archiving Files on the Command Line (Weight: 2)
 Archiving files in the user home directory.
 
-**Key Knowledge Areas:**
-- Files, directories
-- Archives, compression
+**Key Knowledge Areas:** 
+- Files and directories
+- Archives and compression
 
-**The following is a partial list of the used files, terms, and utilities:**
-- tar
-- Common tar options
-- gzip, bzip2, xz
-- zip, unzip
+**Important Concepts & Terms:**
+- **Archiving:** Combining multiple files into one file (tar)
+- **Compression:** Reducing file size (gzip, bzip2, xz, zip)
 
+**Key Commands:**
+- *tar* - Teh main archiving tool
+  - *tar -cvf archive.tar files...* (Create)
+  - *tar -xvf archive.tar* (Extract)
+  - **Common options:**
+    - *-c* (create)
+    - *-x* (extract)
+    - *-v* (verbose)
+    - *-f* (file)
+    - *-z* (gzip)
+    - *-j* (bzip2)
+- **Compression tools:**
+  - *gzip* / *gunzip*
+  - *bzip2* / *bunzip2*
+  - *xz*
+  - *zip* / *unzip*
+
+**Exam Tips:**
+- Know the most common *tar* options (*-czvf*, *-xzvf*)
+- Understand the difference between archiving and compression.
+  
 ### 3.2 Searching and Extracting Data from Files (Weight: 3)
 Search and extract data from files in the home directory
 
 **Key Knowledge Areas:**
 - Command line pipes
 - I/O redirection
-- Basic Regular Expressions using ., [], *, and ?
+- Basic Regular Expressions using (., [], *, and ?)
 
-**The following is a partial list of the used files, terms, and utilities:**
-- grep
-- less
-- cat, head, tail
-- sort
-- cut
-- wc
+**Important Concepts & Terms:**
+- **Pipes(|):** Send output of one command as input to another
+  - Example: *ls -l | grep ".txt"
+- **I/O Redirection:**
+  - > : Redirect output to a file (overwrite)
+  - >> : Redirect output to a file (append)
+  - < : Redirect input from a file
+- **Basic Regular Expressions** (with *grep*)
+  - . = any single character
+  - \* = zero or more of the previous character
+  - ? = zero or one of the previous character
+  - [] = character class (e.g., [a-z])
+
+**Key Commands:**
+- *grep* - Search for text patterns
+- *less* / *more* - View files one page at a time
+- *cat* - Concatenate and display files
+- *head* - Show first lines
+- *tail* - Show last lines
+- *sort* - Sort lines
+- *wc* - Word count
+
+**Exam Tips:**
+- Master *grep* with basic regex - very common on the exam.
+- Know the difference between > and >>
 
 ### 3.3 Turning Commands into a Script (Weight: 4)
 Turning repetitive commands into simple scripts.
@@ -230,14 +309,34 @@ Turning repetitive commands into simple scripts.
 - Basic shell scripting
 - Awareness of common text editors (vi and nano)
 
-**The following is a partial list of the used files, terms, and utilities:**
-- #! (shebang)
-- /bin/bash
-- Variables
-- Arguments
-- for loops
-- echo
-- Exit status
+**Important Concepts & Terms:**
+- **Shebang** (#!/bin/bash): First line of the script that tells the system which interpreter to use.
+- **Variables:** *NAME="value"* and *$NAME* to use it.
+- **Arguments:** $1, $2, etc. (positional parameters).
+- **For Loops:** Basic iteration.
+- **Exit Status:** $? (0 = success, non-zero = error)
+
+**Key Commands / Tools:**
+- Text Editors:
+  - *nano* - Beginner-friendly
+  - *vi* / *vim* - Powerful but steeper learning curve 
+
+**Basic Script Structure Example:**
+#!/bin/bash
+# This is a comment
+
+NAME="World"
+echo "Hello $NAME"
+
+# Simple loop
+for i in 1 2 3; do
+    echo "Number $i"
+done
+
+**Exam Tips:**
+- Know the shebang line.
+- Understand how to make a script executable (*chmod +x script.sh*)
+- Be able to read simple scripts with variables and loops.
 
 ## Topic 4: The Linux Operating System (Weight: 8)
 
