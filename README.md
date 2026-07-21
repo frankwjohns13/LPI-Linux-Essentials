@@ -546,7 +546,11 @@ Special directories and files on a Linux system including special permissions.
 - Know what the sticky bit is and where it's commonly used (*/tmp/*).
 - Understand symbolic links vs hard links.
 
+## Notes Index
+[View Notes Index](https://github.com/frankwjohns13/frankwjohns13.github.io)
 
+## Website
+[View website](https://frankwjohns13.github.io/)
 
 <!-- End of File -->
 
