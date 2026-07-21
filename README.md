@@ -280,14 +280,14 @@ Search and extract data from files in the home directory
 - **Pipes(|):** Send output of one command as input to another
   - Example: *ls -l | grep ".txt"
 - **I/O Redirection:**
-  - > : Redirect output to a file (overwrite)
-  - >> : Redirect output to a file (append)
+  - \> : Redirect output to a file (overwrite)
+  - \>> : Redirect output to a file (append)
   - < : Redirect input from a file
 - **Basic Regular Expressions** (with *grep*)
   - . = any single character
   - \* = zero or more of the previous character
   - ? = zero or one of the previous character
-  - [] = character class (e.g., [a-z])
+  - [ ] = character class (e.g., [a-z])
 
 **Key Commands:**
 - *grep* - Search for text patterns
@@ -323,14 +323,14 @@ Turning repetitive commands into simple scripts.
 
 **Basic Script Structure Example:**
 #!/bin/bash
-# This is a comment
+\# This is a comment
 
-NAME="World"
+NAME="World" \
 echo "Hello $NAME"
 
-# Simple loop
-for i in 1 2 3; do
-    echo "Number $i"
+\# Simple loop
+for i in 1 2 3; do \
+    echo "Number $i" \
 done
 
 **Exam Tips:**
