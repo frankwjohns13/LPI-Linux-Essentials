@@ -92,20 +92,26 @@ Basic Information and Communication Technology (ICT) skills and working in Linux
 ### 2.1 Command Line Basics (Weight: 3)
 Basics of using the Linux command line.
 
-**Key Knowledge Areas:**
-- Basic shell
-- Command line syntax
-- Variables
-- Quoting
-  
-**The following is a partial list of the used files, terms, and utilities:**
-- Bash
-- echo
-- history
-- PATH environment variable
-- export
-- type
+**Key Knowledge Areas:** The following is a partial list of the used files, terms, and utilities
+- **Shell:** The most common is **Bash** (/bin/bash).
+- **Command line syntax**: *command [options] [arguments]*
+  - Example: *ls -l /home*
+- **Variables:**
+  - Environment variables (e.g., *$PATH*, *$HOME*)
+  - Setting variables: *VAR=value*
+  - Exporting: *export VAR=value*
+- **Quoting:**
+  - Single quotes (' ') - literal, no expansion
+  - Double quotes (" ") - allow variable expression
+  - Backsticks or $() - command substitution
 
+**Partial List of Commands/Utilities:**
+- *echo*
+- *history*
+- *type*
+- *export*
+- *PATH* environment variable
+  
 ### 2.2 Using the Command Line to Get Help (Weight: 2)
 Running help commands and navigation of the various help systems
 
