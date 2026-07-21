@@ -111,19 +111,36 @@ Basics of using the Linux command line.
 - *type*
 - *export*
 - *PATH* environment variable
-  
+
+**Exam Tips:**
+- Know the basic command syntax: *command [options] [arguments]*
+- Understand the difference between single and double quotes.
+- Know what *$PATH* is and why it matters.
+- Be able to explain the difference between shell variables and an environment variable.
+
 ### 2.2 Using the Command Line to Get Help (Weight: 2)
 Running help commands and navigation of the various help systems
 
-**Key Knowledge Areas:**
-- Man pages
-- Info pages
-  
-**The following is a partial list of the used files, terms, and utilities:**
-- man
-- info
-- /usr/share/doc/
-- locate
+**Key Knowledge Areas:** The following is a partial list of the used files, terms, and utilities
+- **Man Pages** (*man*): The standard pages for commands.
+  - **Usage:** *man ls*
+  - **Navigation:** Space = page down, b = page up, q = quit
+  - **Sections:** 1 = user commands, 5 = config files, 8 = admin commands
+- **Info Pages** (*info*): more detailed, hyperlinked documentation (GNU style).
+  - **Usage:** *info ls*
+- **Other Help Methods:**
+  - *command --help* (quick summary)
+  - */usr/share/doc/* directory (additional documentation)
+
+**Partial List of Commands/Utilities:**
+- *man*
+- *info*
+- */usr/share/doc/*
+- *locate* (for finding files)
+
+**Exam Tips:**
+- Know how to use *man* and *info*.
+- Understand that *man* si the most common help system. 
   
 ### 2.3 Using Directories and Listing Files (Weight: 2)
 Navigation of home and system directories and listing files in various locations
