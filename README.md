@@ -441,7 +441,7 @@ Various types of users on a Linux system.
 - System users
 
 **Important Concepts:**
-- **Root User:** Supervisor with full system access (*uid=0*0
+- **Root User:** Supervisor with full system access (*uid=0*)
 - **Standard Users:** Normal accounts with limited privileges
 - **System Users:** service accounts (usually uid < 1000) for running deamons
 
@@ -483,7 +483,7 @@ Creating users and groups on a Linux system.
   - */etc/group* - Group information
   - */etc/skel/* - Default files copied to new users' home directories
 
-**Example:**
+**Example:** \
 sudo useradd -m -G sudo john \# Creates user with home dir and add to sudo group \
 sudo passwd john             \# Sets password
 
