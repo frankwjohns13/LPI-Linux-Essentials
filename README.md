@@ -173,9 +173,9 @@ Create, move, and delete files and directories under the home directory.
 **Key Knowledge Areas:** The following is a partial list of the used files, terms, and utilities
 - **Case Sensitivity:** Linux is case-sensitive (*File.txt* &#8800; *file.txt*)
 - **Flobbing** (wildcards)
-  - * = any characters
+  - /* = any characters
   - ? = single characters
-  - Example: ls *.txt (all .txt files)
+  - Example: ls /*.txt (all .txt files)
 
 **Key Commands:**
 - *touch* - Create empty file or update timestamp
