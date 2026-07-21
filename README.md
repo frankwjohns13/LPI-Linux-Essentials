@@ -170,18 +170,27 @@ Navigation of home and system directories and listing files in various locations
 ### 2.4 Creating, Moving, and Deleting Files (Weight: 2)
 Create, move, and delete files and directories under the home directory.
 
-**Key Knowledge Areas:**
-- Files and directories
-- Case sensitivity
-- Simple globbing
-  
-**The following is a partial list of the used files, terms, and utilities:**
-- mv
-- cp
-- rm
-- touch
-- mkdir
-- rmdir
+**Key Knowledge Areas:** The following is a partial list of the used files, terms, and utilities
+- **Case Sensitivity:** Linux is case-sensitive (*File.txt* &#8800; *file.txt*)
+- **Flobbing** (wildcards)
+  - * = any characters
+  - ? = single characters
+  - Example: ls *.txt (all .txt files)
+
+**Key Commands:**
+- *touch* - Create empty file or update timestamp
+- *mkdir* - Create directory
+- *rmdir* - Remove empty directory
+- *rm* - Remove files/directories
+  - *rm -r* Recurisve (for directories)
+  - *rm -f* Force (no confirmation)
+- *cp* - Copy files/directories
+- *mv* - Move or rename files/directories
+
+**Exam Tips:**
+- Know when to use *rm -r* vs *rmdir*
+- Understand that *mv* can both move and rename
+- Be careful with *rm* - no recycle bin!
 
 ## Topic 3: The Power of the Command Line (Weight: 9)
 
