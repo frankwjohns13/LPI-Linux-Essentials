@@ -2,7 +2,7 @@
 
 # LPI Linux Essentials - Exam Notes
 
-## Topic 1: The Linux community and a Career in Open Source (Weight: 7)
+## Topic 1: The Linux Community and a Career in Open Source (Weight: 7)
 
 ### 1.1 Linux Evolution and Popular Operating Systems (Weight: 2)
 Knowledge of Linux development and major distrobutions.
@@ -233,7 +233,7 @@ Querying vital networking configuration and determining the basic requirments fo
 - ping
 - host
 
-## Topic 5: Creating Users and Groups (Weight: 7)
+## Topic 5: Security and File Permissions (Weight: 7)
 
 ### 5.1 Basic Security Identifying User Types (Weight: 2) 
 Various types of users on a Linux system.
