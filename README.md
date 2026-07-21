@@ -8,18 +8,20 @@
 Knowledge of Linux development and major distrobutions.
 
 **Key Knowledge Areas:**
-- Distributions
-- Embedded Systems
-- Linux in the Cloud
+The following is a partial list of the used files, terms, and utilities
+- Distributions (Distros):
+  - Debian-based: Debian, Ubuntu (Long Term Support (LTS) versions are popular for servers)
+  - Red Hat-based: Red Hat Enterprise Linux (RHEL), CentOS, Fedora
+  - SUSE-based: OpenSUSE, SUSE Linux Enterprise
+  - Others: Linux Mint (User-friendly), Raspberry Pi OS (for Pi devices)
+- Embedded Systems: Lightweight Linux versions used in devices like routers, IoT, cars, etc. (e.g., Raspbian on Raspberry Pi, Andriod is Linux-based).
+- Linux in the Cloud: Most cloud servers run Linux (Ubuntu, Amazon Linux, etc.). Containers (Docker) and orchestration (Kubernetes) are heavily Linux-based.
+- Kali: Designed packed full of applications used in penetration testing
 
-**The following is a partial list of the used files, terms, and utilities:**
-- Debian, Ubuntu (LTS)
-- CentOS, openSUSE, Red Hat, SUSE
-- Linux Mint, Scientific Linux
-- Raspberry Pi, Raspbian
-- Android
-- Kali
-
+**Exam Tips:**
+- Know the most popular server distros: Ubuntu and RHEL/CentOS
+- Understand that Android is a Linux-based operating system
+  
 ### 1.2 Major Open Source Applications (Weight: 2)
 Awareness of major applications as well as their uses and development. 
 
