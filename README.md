@@ -287,7 +287,7 @@ Search and extract data from files in the home directory
   - . = any single character
   - \* = zero or more of the previous character
   - ? = zero or one of the previous character
-  - [ ] = character class (e.g., [a-z])
+  - \[ ] = character class (e.g., [a-z])
 
 **Key Commands:**
 - *grep* - Search for text patterns
@@ -328,7 +328,7 @@ Turning repetitive commands into simple scripts.
 NAME="World" \
 echo "Hello $NAME"
 
-\# Simple loop
+\# Simple loop \
 for i in 1 2 3; do \
     echo "Number $i" \
 done
