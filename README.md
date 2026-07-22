@@ -526,13 +526,13 @@ Special directories and files on a Linux system including special permissions.
 
 **Key Knowledge Areas:**
 - Using temporary files and directories
-- Sysbolic links
+- Symbolic links
 
 **Important Concepts & Terms:**
 - ** Temporary Directories:**
   - */tmp/* - General temporary files (cleared on reboot)
   - */var/tmp/* - Temporary files that persist across reboots
-- **Sticky Bit** - Speccial permission on directories (only owner can delete files inside)
+- **Sticky Bit** - Special permission on directories (only owner can delete files inside)
   - Shown as *t* in permissions (e.g., *drwxrwxrwt*)
 - **Symbolic Links** (Symlinks):
   - Shortcut to another file or directory
