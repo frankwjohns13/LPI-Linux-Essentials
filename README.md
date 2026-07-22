@@ -5,7 +5,7 @@
 ## Topic 1: The Linux Community and a Career in Open Source (Weight: 7)
 
 ### 1.1 Linux Evolution and Popular Operating Systems (Weight: 2)
-Knowledge of Linux development and major distrobutions.
+Knowledge of Linux development and major distributions.
 
 **Key Knowledge Areas:** 
 - Major Linux distributions and their use cases
