@@ -1,4 +1,4 @@
-![LPI Linux Essentials](https://www.lpi.org/wp-content/webp-express/webp-images/uploads/2023/04/Essentials-Linux.jpg.webp)
+![LPI Linux Essentials](https://images.credly.com/size/340x340/images/1d36cb36-20fc-4961-8d70-6307c015d1aa/blob)
 
 # LPI Linux Essentials - Exam Notes
 
