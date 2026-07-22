@@ -294,7 +294,10 @@ Search and extract data from files in the home directory
 - *less* / *more* - View files one page at a time
 - *cat* - Concatenate and display files
 - *head* - Show first lines
+  - *-n* - Number of liines
 - *tail* - Show last lines
+  - *-f* - Print the file as it grows
+  - *-n* - Number of lines
 - *sort* - Sort lines
 - *wc* - Word count
 
