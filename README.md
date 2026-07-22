@@ -47,7 +47,7 @@ Awareness of major applications as well as their uses and development.
   - Samba (file sharing with Windows)
   - Nextcloud / ownCloud (private cloud storage)
 - **Development languages**
-  - C, Java, JavaScript, Perl, shell, Python, PHP
+  - C, C++, C#, Java, JavaScript, Perl, Ruby, shell, Python, PHP, CSS
 - **Package management and repositories**
   - **Debian/Ubuntu**: apt, apt-get, dpkg
   - **Red Hat/CentOS/Fedora**: yum, dnf, rpm
